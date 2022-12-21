@@ -44,7 +44,7 @@ namespace Exe5_20210140061_Kelompok7
             FITRI = el;
         }
 
-        public int remove()
+        public int delete()
         {
             Node tmp;
             Console.WriteLine("\nThe element deleted from the queue is: " + AISAH + "\n");
@@ -112,7 +112,7 @@ namespace Exe5_20210140061_Kelompok7
                             break;
                         case '2':
                             {
-                                q.remove();
+                                q.delete();
                             }
                             break;
                         case '3':
