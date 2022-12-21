@@ -44,6 +44,21 @@ namespace Exe5_20210140061_Kelompok7
             FITRI = el;
         }
 
+        public void remove()
+        {
+            Node tmp;
+            Console.WriteLine("\nThe element deleted from the queue is: " + AISAH + "\n");
+
+            tmp = AISAH;
+            AISAH = AISAH.next;
+
+            if (AISAH == null)
+            {
+                FITRI = null;
+            }
+            return tmp.info;
+
+        }
 
 
     }
