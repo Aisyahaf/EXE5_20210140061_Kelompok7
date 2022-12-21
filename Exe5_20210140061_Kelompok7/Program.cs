@@ -17,6 +17,21 @@ namespace Exe5_20210140061_Kelompok7
         }
    }
 
-    
+    class Queues
+    {
+        Node AISAH;
+        Node FITRI;
+
+        public Queues()
+        {
+            AISAH = null;
+            FITRI = null;
+        }
+
+
+
+
+
+    }
 }
  
