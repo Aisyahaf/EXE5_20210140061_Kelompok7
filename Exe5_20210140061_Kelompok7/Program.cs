@@ -84,6 +84,31 @@ namespace Exe5_20210140061_Kelompok7
             Console.WriteLine();
         }
 
+        static void Main(string[] args)
+        {
+            Queues q = new Queues();
+            char ch;
+
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1. Implement Insert Operation");
+                    Console.WriteLine("2. Implement Delete Operation");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.Write("\nEnter your choice ( 1-4 ): ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    switch (ch)
+                    {
+                        case
+                    }
+                }
+            }
+        }
+
 
     }
 }
