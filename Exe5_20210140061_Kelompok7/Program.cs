@@ -28,7 +28,21 @@ namespace Exe5_20210140061_Kelompok7
             FITRI = null;
         }
 
+        public void insert(char element)
+        {
+            Node el;
+            el = new Node(element, null);
 
+            if (AISAH == null)
+            {
+                AISAH = el;
+            }
+            else
+            {
+                FITRI.next = el;
+            }
+            FITRI = el;
+        }
 
 
 
