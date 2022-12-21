@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exe5_20210140061_Kelompok7
+namespace EXE5_20210140061_Kelompok7
 {
    class Node
    {
