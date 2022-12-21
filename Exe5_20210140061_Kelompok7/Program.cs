@@ -61,10 +61,10 @@ namespace Exe5_20210140061_Kelompok7
 
         public void display()
         {
-            Node Ai;
-            Ai = AISAH;
+            Node AISAH_position;
+            AISAH_position = AISAH;
 
-            if ((Ai == null) && (FITRI == null))
+            if ((AISAH_position == null) && (FITRI == null))
             {
                 Console.WriteLine("Queue is empty");
                 return;
@@ -72,14 +72,14 @@ namespace Exe5_20210140061_Kelompok7
 
             Console.WriteLine("\nElements in the queue are....\n");
 
-            while (Ai != FITRI)
+            while (AISAH_position != FITRI)
             {
-                Console.WriteLine(Ai.info);
-                Ai = Ai.next;
+                Console.WriteLine(AISAH_position.info);
+                AISAH_position = AISAH_position.next;
             }
-            if (Ai == FITRI)
+            if (AISAH_position == FITRI)
             {
-                Console.WriteLine(Ai.info);
+                Console.WriteLine(AISAH_position.info);
             }
             Console.WriteLine();
         }
@@ -105,7 +105,7 @@ namespace Exe5_20210140061_Kelompok7
                     {
                         case '1':
                             {
-                                Console.WriteLine("Enter a character : ");
+                                Console.Write("Enter a character : ");
                                 char c = Convert.ToChar(Console.ReadLine());
                                 q.insert(c);
                             }
@@ -120,7 +120,7 @@ namespace Exe5_20210140061_Kelompok7
                                 q.display();
                             }
                             break;
-                        case '4';
+                        case '4':
                             return;
                         default:
                             {
