@@ -103,8 +103,35 @@ namespace Exe5_20210140061_Kelompok7
                     Console.WriteLine();
                     switch (ch)
                     {
-                        case
+                        case '1':
+                            {
+                                Console.WriteLine("Enter a character : ");
+                                char c = Convert.ToChar(Console.ReadLine());
+                                q.insert(c);
+                            }
+                            break;
+                        case '2':
+                            {
+                                q.remove();
+                            }
+                            break;
+                        case '3':
+                            {
+                                q.display();
+                            }
+                            break;
+                        case '4';
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid Option!!");
+                            }
+                            break;
                     }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Check for the values entered.");
                 }
             }
         }
